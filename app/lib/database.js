@@ -2,10 +2,10 @@ var mysql      = require('mysql');
 
 // creating a database connection
 var connection = mysql.createConnection({
-      host     : '172.18.0.102',
-      user     : 'root',
-      password : 'password',
-      database : 'todo_app'
+      host     : 'localhost',
+      user     : 'sush',
+      password : 'sush123',
+      database : 'my_db'
 });
 connection.connect();
 
